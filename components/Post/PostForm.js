@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
 import { QUERY_ME } from "../../utils/queries";
 import { CREATE_POST } from "../../utils/mutations";
-import cloudinary from "@cloudinary/react";
 
 const PostForm = () => {
   const [titleCharacterCount, setTitleCharacterCount] = useState(40);
